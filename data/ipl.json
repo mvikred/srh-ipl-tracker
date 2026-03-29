@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T07:43:23.922332+00:00",
+  "updated_at": "2026-03-29T07:53:03.318073+00:00",
   "updated_date": "2026-03-29",
   "srh": {
     "position": 10,
@@ -110,7 +110,19 @@
       "form": []
     }
   ],
-  "today_matches": [],
+  "today_matches": [
+    {
+      "teams": [
+        "MI",
+        "KKR"
+      ],
+      "venue": "Mumbai",
+      "status": "Match #2 \u00b7 7:30 PM IST",
+      "matchStarted": false,
+      "matchEnded": false,
+      "score": []
+    }
+  ],
   "srh_schedule": [
     {
       "match": 1,
