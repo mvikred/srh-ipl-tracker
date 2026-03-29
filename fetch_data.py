@@ -1,8 +1,3 @@
-"""
-IPL 2026 Data Fetcher — runs daily via GitHub Actions
-Fetches points table + today's matches from cricketdata.org
-"""
-
 import requests
 import json
 import os
@@ -10,9 +5,7 @@ from datetime import datetime, timezone
 
 API_KEY = os.environ.get("CRICKET_API_KEY", "")
 BASE    = "https://api.cricapi.com/v1"
-IPL_SERIES_ID = "d5a498c8-7596-4b93-8ab0-e0efc3345312"
 
-# Comprehensive name → abbreviation map
 TEAM_MAP = {
     "sunrisers hyderabad": "SRH", "sunrisers": "SRH", "srh": "SRH",
     "royal challengers bengaluru": "RCB", "royal challengers bangalore": "RCB",
@@ -23,7 +16,7 @@ TEAM_MAP = {
     "gujarat titans": "GT", "gujarat": "GT", "gt": "GT",
     "delhi capitals": "DC", "delhi": "DC", "dc": "DC",
     "rajasthan royals": "RR", "rajasthan": "RR", "rr": "RR",
-    "punjab kings": "PBKS", "punjab": "PBKS", "pbks": "PBKS", "kings xi punjab": "PBKS",
+    "punjab kings": "PBKS", "punjab": "PBKS", "pbks": "PBKS",
     "lucknow super giants": "LSG", "lucknow": "LSG", "lsg": "LSG",
 }
 
@@ -59,40 +52,71 @@ def to_abbr(raw_name):
     print(f"  ⚠ Unknown team: '{raw_name}'")
     return raw_name.strip()
 
-ipl_id = find_ipl_2026_series_id()
-if not ipl_id:
-    print("  ❌ Could not find IPL 2026 series ID")
-    ipl_id = ""
 
 def find_ipl_2026_series_id():
-    """Search the series list to find the correct IPL 2026 series ID."""
+    """Search the series list to auto-discover the IPL 2026 series ID."""
     url = f"{BASE}/series?apikey={API_KEY}&offset=0"
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
         data = r.json()
         series_list = data.get("data", [])
-        print(f"  [find_series] Total series returned: {len(series_list)}")
+        print(f"  [find_series] {len(series_list)} series returned")
         for s in series_list:
-            name = (s.get("name") or "").lower()
+            name  = (s.get("name") or "").lower()
             start = s.get("startDate") or s.get("startdate") or ""
-            print(f"    → {s.get('id')} | {s.get('name')} | {start}")
-            if "indian premier league" in name and "2026" in name:
-                print(f"  ✅ Found IPL 2026: {s.get('id')}")
+            print(f"    {s.get('id')} | {s.get('name')} | {start}")
+            if ("indian premier league" in name or "ipl" in name) and "2026" in name:
+                print(f"  ✅ Found IPL 2026 series: {s.get('id')}")
                 return s.get("id")
-            if "ipl" in name and "2026" in name:
-                print(f"  ✅ Found IPL 2026 (ipl): {s.get('id')}")
-                return s.get("id")
-        # Fallback: find by start date in 2026
+        # Fallback: match by start date in 2026
         for s in series_list:
-            start = s.get("startDate") or s.get("startdate") or ""
+            start = (s.get("startDate") or s.get("startdate") or "")
             name  = (s.get("name") or "").lower()
             if start.startswith("2026") and ("premier league" in name or "ipl" in name):
                 print(f"  ✅ Found by date: {s.get('id')} | {s.get('name')}")
                 return s.get("id")
     except Exception as e:
         print(f"  [find_series] FAILED: {e}")
+    print("  ❌ IPL 2026 series not found in list")
     return None
+
+
+def get_series_points_table(series_id):
+    url = f"{BASE}/series_points?apikey={API_KEY}&id={series_id}"
+    try:
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        print(f"  [series_points] status={data.get('status')}")
+        raw = data.get("data", [])
+        if raw and isinstance(raw, list):
+            print(f"  [series_points] sample keys: {list(raw[0].keys())}")
+            print(f"  [series_points] sample: {json.dumps(raw[0], indent=2)[:400]}")
+        if data.get("status") == "success":
+            return raw
+    except Exception as e:
+        print(f"  [series_points] FAILED: {e}")
+    return []
+
+
+def get_series_info(series_id):
+    url = f"{BASE}/series_info?apikey={API_KEY}&id={series_id}"
+    try:
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        print(f"  [series_info] status={data.get('status')}")
+        if data.get("status") == "success":
+            d  = data.get("data", {})
+            ml = d.get("matchList", [])
+            if ml:
+                print(f"  [series_info] matchList[0]: {json.dumps(ml[0], indent=2)[:400]}")
+            return d
+    except Exception as e:
+        print(f"  [series_info] FAILED: {e}")
+    return {}
+
 
 def normalize_points_table(raw):
     table = []
@@ -102,18 +126,15 @@ def normalize_points_table(raw):
         abbr = to_abbr(raw_name)
         if not abbr:
             continue
-
         nrr_raw = row.get("nrr") or row.get("netRunRate") or row.get("net_run_rate") or 0
         try:
             nrr_f   = float(nrr_raw)
             nrr_str = f"{nrr_f:+.3f}" if nrr_f != 0 else "0.000"
         except Exception:
             nrr_str = "0.000"
-
         form_raw = row.get("form") or row.get("lastFive") or []
         if isinstance(form_raw, str):
             form_raw = list(form_raw)
-
         table.append({
             "team":    abbr,
             "matches": int(row.get("played") or row.get("matches") or row.get("matchesPlayed") or 0),
@@ -123,10 +144,7 @@ def normalize_points_table(raw):
             "nrr":     nrr_str,
             "form":    form_raw,
         })
-
-    table.sort(key=lambda x: (x["points"], float(x["nrr"].replace("+", "") or 0)), reverse=True)
-
-    # Ensure all 10 teams appear
+    table.sort(key=lambda x: (x["points"], float(x["nrr"].replace("+","") or 0)), reverse=True)
     present = {r["team"] for r in table}
     for t in ALL_TEAMS:
         if t not in present:
@@ -166,24 +184,24 @@ def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"\n{'='*50}\nFetching IPL 2026 data — {today}\n{'='*50}")
 
-    raw_table = get_series_points_table()
-    if raw_table:
-        points_table = normalize_points_table(raw_table)
-        print(f"  ✓ Points table: {len(points_table)} teams")
-    else:
-        print("  ⚠ Blank points table")
+    # Step 1: find correct series ID
+    ipl_id = find_ipl_2026_series_id()
+    if not ipl_id:
+        print("  ❌ Could not find IPL 2026 series — writing blank data")
         points_table = [{"team": t, "matches": 0, "wins": 0, "losses": 0,
+                         "points": 0, "nrr": "0.000", "form": []} for t in ALL_TEAMS]
+    else:
+        raw_table    = get_series_points_table(ipl_id)
+        points_table = normalize_points_table(raw_table) if raw_table else \
+                       [{"team": t, "matches": 0, "wins": 0, "losses": 0,
                          "points": 0, "nrr": "0.000", "form": []} for t in ALL_TEAMS]
 
     srh_row = next((r for r in points_table if r["team"] == "SRH"),
-                   {"team": "SRH", "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []})
-    srh_pos = next((i + 1 for i, r in enumerate(points_table) if r["team"] == "SRH"), None)
+                   {"team":"SRH","matches":0,"wins":0,"losses":0,"points":0,"nrr":"0.000","form":[]})
+    srh_pos = next((i+1 for i,r in enumerate(points_table) if r["team"]=="SRH"), None)
 
-    series_data   = get_series_info()
+    series_data   = get_series_info(ipl_id) if ipl_id else {}
     today_matches = normalize_matches(series_data.get("matchList", []), today)
-    print(f"  ✓ Today matches: {len(today_matches)}")
-
-    next_match = get_next_srh_match(today)
 
     payload = {
         "updated_at":   datetime.now(timezone.utc).isoformat(),
@@ -197,7 +215,7 @@ def main():
             "nrr":        srh_row["nrr"],
             "form":       srh_row["form"],
             "captain":    "Ishan Kishan (interim) · Pat Cummins (injured)",
-            "next_match": next_match,
+            "next_match": get_next_srh_match(today),
         },
         "points_table":  points_table,
         "today_matches": today_matches,
