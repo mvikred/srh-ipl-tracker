@@ -8,6 +8,9 @@ on:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -17,12 +20,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests
-
       - name: Fetch latest IPL data
-        env:
-          CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
         run: python fetch_data.py
 
       - name: Commit updated data/ipl.json
