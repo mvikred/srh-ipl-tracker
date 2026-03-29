@@ -59,6 +59,10 @@ def to_abbr(raw_name):
     print(f"  ⚠ Unknown team: '{raw_name}'")
     return raw_name.strip()
 
+ipl_id = find_ipl_2026_series_id()
+if not ipl_id:
+    print("  ❌ Could not find IPL 2026 series ID")
+    ipl_id = ""
 
 def find_ipl_2026_series_id():
     """Search the series list to find the correct IPL 2026 series ID."""
