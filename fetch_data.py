@@ -255,7 +255,8 @@ def main():
 
     print(f"\n  ✅ data/ipl.json written")
     print(f"  SRH → #{srh_pos}, {srh_row['points']} pts, NRR {srh_row['nrr']}")
-    print(f"  Top 3: {[f\"{r['team']} {r['points']}pts\" for r in table[:3]]}")
+    top3 = [f"{r['team']} {r['points']}pts" for r in table[:3]]
+print(f"  Top 3: {top3}")
 
 
 if __name__ == "__main__":
