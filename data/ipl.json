@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-29T07:16:16.714766+00:00",
+  "updated_at": "2026-03-29T07:43:23.922332+00:00",
   "updated_date": "2026-03-29",
   "srh": {
     "position": 10,
     "points": 0,
-    "matches": 14,
-    "wins": 6,
+    "matches": 0,
+    "wins": 0,
     "losses": 0,
     "nrr": "0.000",
     "form": [],
@@ -20,45 +20,9 @@
   },
   "points_table": [
     {
-      "team": "CSK",
-      "matches": 14,
-      "wins": 4,
-      "losses": 0,
-      "points": 0,
-      "nrr": "0.000",
-      "form": []
-    },
-    {
-      "team": "DC",
-      "matches": 15,
-      "wins": 7,
-      "losses": 0,
-      "points": 0,
-      "nrr": "0.000",
-      "form": []
-    },
-    {
-      "team": "GT",
-      "matches": 15,
-      "wins": 9,
-      "losses": 0,
-      "points": 0,
-      "nrr": "0.000",
-      "form": []
-    },
-    {
-      "team": "KKR",
-      "matches": 14,
-      "wins": 5,
-      "losses": 0,
-      "points": 0,
-      "nrr": "0.000",
-      "form": []
-    },
-    {
-      "team": "LSG",
-      "matches": 14,
-      "wins": 6,
+      "team": "RCB",
+      "matches": 0,
+      "wins": 0,
       "losses": 0,
       "points": 0,
       "nrr": "0.000",
@@ -66,17 +30,44 @@
     },
     {
       "team": "MI",
-      "matches": 16,
-      "wins": 9,
+      "matches": 0,
+      "wins": 0,
       "losses": 0,
       "points": 0,
       "nrr": "0.000",
       "form": []
     },
     {
-      "team": "PBKS",
-      "matches": 18,
-      "wins": 10,
+      "team": "KKR",
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "CSK",
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "GT",
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "DC",
+      "matches": 0,
+      "wins": 0,
       "losses": 0,
       "points": 0,
       "nrr": "0.000",
@@ -84,17 +75,26 @@
     },
     {
       "team": "RR",
-      "matches": 14,
-      "wins": 4,
+      "matches": 0,
+      "wins": 0,
       "losses": 0,
       "points": 0,
       "nrr": "0.000",
       "form": []
     },
     {
-      "team": "RCB",
-      "matches": 16,
-      "wins": 11,
+      "team": "PBKS",
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "LSG",
+      "matches": 0,
+      "wins": 0,
       "losses": 0,
       "points": 0,
       "nrr": "0.000",
@@ -102,8 +102,8 @@
     },
     {
       "team": "SRH",
-      "matches": 14,
-      "wins": 6,
+      "matches": 0,
+      "wins": 0,
       "losses": 0,
       "points": 0,
       "nrr": "0.000",
