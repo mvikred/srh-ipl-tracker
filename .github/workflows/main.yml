@@ -1,0 +1,34 @@
+name: Update IPL 2026 Data
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch latest IPL data
+        env:
+          CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
+        run: python fetch_data.py
+
+      - name: Commit updated data/ipl.json
+        run: |
+          git config user.name  "ipl-bot"
+          git config user.email "ipl-bot@users.noreply.github.com"
+          git add data/ipl.json
+          git diff --cached --quiet || git commit -m "chore: update IPL data $(date -u '+%Y-%m-%d')"
+          git push
