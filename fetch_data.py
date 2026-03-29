@@ -60,42 +60,35 @@ def to_abbr(raw_name):
     return raw_name.strip()
 
 
-def get_series_points_table():
-    url = f"{BASE}/series_points?apikey={API_KEY}&id={IPL_SERIES_ID}"
+def find_ipl_2026_series_id():
+    """Search the series list to find the correct IPL 2026 series ID."""
+    url = f"{BASE}/series?apikey={API_KEY}&offset=0"
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
         data = r.json()
-        print(f"  [series_points] status={data.get('status')}")
-        raw = data.get("data", [])
-        if raw and isinstance(raw, list):
-            print(f"  [series_points] sample keys: {list(raw[0].keys())}")
-            print(f"  [series_points] sample: {json.dumps(raw[0], indent=2)[:400]}")
-        if data.get("status") == "success":
-            return raw
+        series_list = data.get("data", [])
+        print(f"  [find_series] Total series returned: {len(series_list)}")
+        for s in series_list:
+            name = (s.get("name") or "").lower()
+            start = s.get("startDate") or s.get("startdate") or ""
+            print(f"    → {s.get('id')} | {s.get('name')} | {start}")
+            if "indian premier league" in name and "2026" in name:
+                print(f"  ✅ Found IPL 2026: {s.get('id')}")
+                return s.get("id")
+            if "ipl" in name and "2026" in name:
+                print(f"  ✅ Found IPL 2026 (ipl): {s.get('id')}")
+                return s.get("id")
+        # Fallback: find by start date in 2026
+        for s in series_list:
+            start = s.get("startDate") or s.get("startdate") or ""
+            name  = (s.get("name") or "").lower()
+            if start.startswith("2026") and ("premier league" in name or "ipl" in name):
+                print(f"  ✅ Found by date: {s.get('id')} | {s.get('name')}")
+                return s.get("id")
     except Exception as e:
-        print(f"  [series_points] FAILED: {e}")
-    return []
-
-
-def get_series_info():
-    url = f"{BASE}/series_info?apikey={API_KEY}&id={IPL_SERIES_ID}"
-    try:
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-        data = r.json()
-        print(f"  [series_info] status={data.get('status')}")
-        if data.get("status") == "success":
-            d = data.get("data", {})
-            ml = d.get("matchList", [])
-            if ml:
-                print(f"  [series_info] matchList[0] keys: {list(ml[0].keys())}")
-                print(f"  [series_info] matchList[0]: {json.dumps(ml[0], indent=2)[:400]}")
-            return d
-    except Exception as e:
-        print(f"  [series_info] FAILED: {e}")
-    return {}
-
+        print(f"  [find_series] FAILED: {e}")
+    return None
 
 def normalize_points_table(raw):
     table = []
