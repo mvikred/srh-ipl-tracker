@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-03-28T00:00:00Z",
+  "updated_date": "2026-03-28",
+  "srh": {
+    "position": null,
+    "points": 0,
+    "matches": 0,
+    "wins": 0,
+    "losses": 0,
+    "nrr": "0.000",
+    "form": [],
+    "captain": "Ishan Kishan (interim) · Pat Cummins (injured)",
+    "next_match": {
+      "match": 1,
+      "vs": "RCB",
+      "venue": "M. Chinnaswamy Stadium, Bengaluru",
+      "date": "2026-03-28",
+      "time": "7:30 PM IST"
+    }
+  },
+  "points_table": [
+    {"team": "RCB",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "MI",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "KKR",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "CSK",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "GT",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "DC",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "RR",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "PBKS", "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "LSG",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
+    {"team": "SRH",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []}
+  ],
+  "today_matches": [],
+  "srh_schedule": [
+    {"match": 1,  "vs": "RCB",  "venue": "M. Chinnaswamy Stadium, Bengaluru", "date": "2026-03-28", "time": "7:30 PM IST"},
+    {"match": 6,  "vs": "KKR",  "venue": "Eden Gardens, Kolkata",             "date": "2026-04-02", "time": "7:30 PM IST"},
+    {"match": 10, "vs": "LSG",  "venue": "Rajiv Gandhi Int'l Stadium, Hyd",   "date": "2026-04-05", "time": "3:30 PM IST"},
+    {"match": 17, "vs": "PBKS", "venue": "New Chandigarh",                    "date": "2026-04-11", "time": "3:30 PM IST"},
+    {"match": 21, "vs": "RR",   "venue": "Hyderabad",                         "date": "2026-04-13", "time": "7:30 PM IST"},
+    {"match": 27, "vs": "CSK",  "venue": "Hyderabad",                         "date": "2026-04-18", "time": "7:30 PM IST"},
+    {"match": 31, "vs": "DC",   "venue": "Hyderabad",                         "date": "2026-04-21", "time": "7:30 PM IST"},
+    {"match": 36, "vs": "RR",   "venue": "Jaipur (away)",                     "date": "2026-04-25", "time": "7:30 PM IST"},
+    {"match": 41, "vs": "MI",   "venue": "Wankhede, Mumbai (away)",           "date": "2026-04-29", "time": "7:30 PM IST"},
+    {"match": 0,  "vs": "KKR",  "venue": "Hyderabad",                         "date": "2026-05-03", "time": "3:30 PM IST"},
+    {"match": 0,  "vs": "PBKS", "venue": "Hyderabad",                         "date": "2026-05-06", "time": "7:30 PM IST"},
+    {"match": 0,  "vs": "GT",   "venue": "Ahmedabad (away)",                  "date": "2026-05-12", "time": "7:30 PM IST"},
+    {"match": 0,  "vs": "CSK",  "venue": "Chennai (away)",                    "date": "2026-05-18", "time": "7:30 PM IST"},
+    {"match": 0,  "vs": "RCB",  "venue": "Hyderabad",                         "date": "2026-05-22", "time": "7:30 PM IST"}
+  ]
+}
