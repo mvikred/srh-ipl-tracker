@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-28T00:00:00Z",
-  "updated_date": "2026-03-28",
+  "updated_at": "2026-03-29T07:08:21.402401+00:00",
+  "updated_date": "2026-03-29",
   "srh": {
     "position": null,
     "points": 0,
@@ -9,42 +9,2457 @@
     "losses": 0,
     "nrr": "0.000",
     "form": [],
-    "captain": "Ishan Kishan (interim) · Pat Cummins (injured)",
+    "captain": "Ishan Kishan (interim) \u00b7 Pat Cummins (injured)",
     "next_match": {
+      "match": 6,
+      "vs": "KKR",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-04-02",
+      "time": "7:30 PM IST"
+    }
+  },
+  "points_table": [
+    {
+      "team": "",
+      "matches": 14,
+      "wins": 4,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 15,
+      "wins": 7,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 15,
+      "wins": 9,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 14,
+      "wins": 5,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 14,
+      "wins": 6,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 16,
+      "wins": 9,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 18,
+      "wins": 10,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 14,
+      "wins": 4,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 16,
+      "wins": 11,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    },
+    {
+      "team": "",
+      "matches": 14,
+      "wins": 6,
+      "losses": 0,
+      "points": 0,
+      "nrr": "0.000",
+      "form": []
+    }
+  ],
+  "today_matches": [
+    {
+      "id": "b39bbd39-c67f-4892-9a48-02e958946718",
+      "name": "Chennai Super Kings vs Kolkata Knight Riders, 25th Match",
+      "matchType": "t20",
+      "status": "Kolkata Knight Riders won by 8 wkts",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2025-04-11",
+      "dateTimeGMT": "2025-04-11T14:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "f16e5b1e-1437-475b-8e8c-07d1d736f8a7",
+      "name": "Gujarat Titans vs Chennai Super Kings, 67th Match",
+      "matchType": "t20",
+      "status": "Chennai Super Kings won by 83 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-05-25",
+      "dateTimeGMT": "2025-05-25T10:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "47fd62f1-ca48-4c9c-9ded-0d2fcb5a64df",
+      "name": "Lucknow Super Giants vs Delhi Capitals, 40th Match",
+      "matchType": "t20",
+      "status": "Delhi Capitals won by 8 wkts",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-04-22",
+      "dateTimeGMT": "2025-04-22T14:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "3027ad1a-e7d8-4891-8ea0-1a56f81e8700",
+      "name": "Sunrisers Hyderabad vs Gujarat Titans, 19th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 7 wkts",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2025-04-06",
+      "dateTimeGMT": "2025-04-06T14:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "bceb4ff2-269d-47d3-a59d-211f18f59e59",
+      "name": "Royal Challengers Bengaluru vs Kolkata Knight Riders, 58th Match",
+      "matchType": "t20",
+      "status": "There is no scorecard available for this match.",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "date": "2025-05-17",
+      "dateTimeGMT": "2025-05-17T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": false,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "208d68e5-3fab-4f3b-88e9-29ec4a02d3e2",
+      "name": "Chennai Super Kings vs Mumbai Indians, 3rd Match",
+      "matchType": "t20",
+      "status": "Chennai Super Kings won by 4 wkts",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2025-03-23",
+      "dateTimeGMT": "2025-03-23T14:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "a97077e7-466a-46e8-b6e7-2b74731b1d42",
+      "name": "Mumbai Indians vs Gujarat Titans, 56th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 3 wkts by DLS Method (Target 147)",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-05-06",
+      "dateTimeGMT": "2025-05-06T14:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "d5915da0-c08b-4122-bcb0-2c2e1e6e168a",
+      "name": "Kolkata Knight Riders vs Sunrisers Hyderabad, 15th Match",
+      "matchType": "t20",
+      "status": "Kolkata Knight Riders won by 80 runs",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-04-03",
+      "dateTimeGMT": "2025-04-03T14:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "64e88ffc-606f-4d4f-b848-310f1ec7a98a",
+      "name": "Royal Challengers Bengaluru vs Gujarat Titans, 14th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 8 wkts",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "date": "2025-04-02",
+      "dateTimeGMT": "2025-04-02T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "01244c3f-ce16-42a7-bcee-31d75fcdfb4e",
+      "name": "Mumbai Indians vs Chennai Super Kings, 38th Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 9 wkts",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-04-20",
+      "dateTimeGMT": "2025-04-20T14:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "ebce77ae-63e1-46eb-8ff4-360ba8dc9bf2",
+      "name": "Royal Challengers Bengaluru vs Punjab Kings, 34th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 5 wkts - 14 overs game - due to rain",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "date": "2025-04-18",
+      "dateTimeGMT": "2025-04-18T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "d0b375d6-eb90-48f9-b8a3-37647a418ea2",
+      "name": "Rajasthan Royals vs Mumbai Indians, 50th Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 100 runs",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-05-01",
+      "dateTimeGMT": "2025-05-01T14:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "56a88e0e-e844-41bd-ba65-3c905e36ba0d",
+      "name": "Punjab Kings vs Chennai Super Kings, 22nd Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 18 runs",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, Chandigarh",
+      "date": "2025-04-08",
+      "dateTimeGMT": "2025-04-08T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "91b007f3-c0af-493f-808a-3f4ae2d66e33",
+      "name": "Sunrisers Hyderabad vs Rajasthan Royals, 2nd Match",
+      "matchType": "t20",
+      "status": "Sunrisers Hyderabad won by 44 runs",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2025-03-23",
+      "dateTimeGMT": "2025-03-23T10:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "df44cff0-d889-44a2-a63c-415c93b9d022",
+      "name": "Punjab Kings vs Lucknow Super Giants, 54th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 37 runs",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "date": "2025-05-04",
+      "dateTimeGMT": "2025-05-04T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "481f7248-302b-4aa4-9af8-45fd85afdf83",
+      "name": "Delhi Capitals vs Gujarat Titans, 60th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 10 wkts",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-05-18",
+      "dateTimeGMT": "2025-05-18T14:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "bc3351d1-f950-4aa6-bb6f-473517a06885",
+      "name": "Punjab Kings vs Royal Challengers Bengaluru, Qualifier 1",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 8 wkts",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, Chandigarh",
+      "date": "2025-05-29",
+      "dateTimeGMT": "2025-05-29T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "cacf2d34-41b8-41dd-91ed-5183d880084c",
+      "name": "Kolkata Knight Riders vs Royal Challengers Bengaluru, 1st Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 7 wkts",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-03-22",
+      "dateTimeGMT": "2025-03-22T14:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "23f60d1b-2641-4a84-bb73-54d3aadfb294",
+      "name": "Punjab Kings vs Kolkata Knight Riders, 31st Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 16 runs",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, Chandigarh",
+      "date": "2025-04-15",
+      "dateTimeGMT": "2025-04-15T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "1a4b354c-8692-44d0-9b52-562da45bcce9",
+      "name": "Gujarat Titans vs Sunrisers Hyderabad, 51st Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 38 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-05-02",
+      "dateTimeGMT": "2025-05-02T14:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "c0de6e70-b66d-4d1e-9915-599bb417f8f4",
+      "name": "Punjab Kings vs Delhi Capitals, No result",
+      "matchType": "t20",
+      "status": "Match abandoned due to significant technical failure",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "date": "2025-05-08",
+      "dateTimeGMT": "2025-05-08T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "96324bfb-686e-44b6-a48e-5bd71188d1b2",
+      "name": "Kolkata Knight Riders vs Chennai Super Kings, 57th Match",
+      "matchType": "t20",
+      "status": "Chennai Super Kings won by 2 wkts",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-05-07",
+      "dateTimeGMT": "2025-05-07T14:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "7431523f-7ccb-4a4a-aed7-5c42fc08464c",
+      "name": "Chennai Super Kings vs Royal Challengers Bengaluru, 8th Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 50 runs",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2025-03-28",
+      "dateTimeGMT": "2025-03-28T14:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "263c1103-33c0-4c05-864f-5dbcd29ead9b",
+      "name": "Lucknow Super Giants vs Chennai Super Kings, 30th Match",
+      "matchType": "t20",
+      "status": "Chennai Super Kings won by 5 wkts",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-04-14",
+      "dateTimeGMT": "2025-04-14T14:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "0a5ebe67-67a3-41d2-bbc8-5fc94aef0529",
+      "name": "Mumbai Indians vs Royal Challengers Bengaluru, 20th Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 12 runs",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-04-07",
+      "dateTimeGMT": "2025-04-07T14:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "cec210ca-9184-43d3-9664-5ff0cbce7cd0",
+      "name": "Sunrisers Hyderabad vs Mumbai Indians, 41st Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 7 wkts",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2025-04-23",
+      "dateTimeGMT": "2025-04-23T14:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "37ffb02f-3858-4afd-8229-62f18f88693f",
+      "name": "Lucknow Super Giants vs Sunrisers Hyderabad, 61st Match",
+      "matchType": "t20",
+      "status": "Sunrisers Hyderabad won by 6 wkts",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-05-19",
+      "dateTimeGMT": "2025-05-19T14:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "17f1c3f0-1ed8-4d84-8b8f-6a3e3357f47b",
+      "name": "Sunrisers Hyderabad vs Kolkata Knight Riders, 68th Match",
+      "matchType": "t20",
+      "status": "Sunrisers Hyderabad won by 110 runs",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-05-25",
+      "dateTimeGMT": "2025-05-25T14:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "b2e603ab-96f7-4711-ac9f-6a78e742237d",
+      "name": "Punjab Kings vs Rajasthan Royals, 18th Match",
+      "matchType": "t20",
+      "status": "Rajasthan Royals won by 50 runs",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, Chandigarh",
+      "date": "2025-04-05",
+      "dateTimeGMT": "2025-04-05T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "21cf482e-bb64-4b40-b6e0-6b51c77ba464",
+      "name": "Gujarat Titans vs Mumbai Indians, Eliminator",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 20 runs",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, New Chandigarh",
+      "date": "2025-05-30",
+      "dateTimeGMT": "2025-05-30T14:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "f5dabb5b-a934-4666-a368-7134e991f569",
+      "name": "Chennai Super Kings vs Delhi Capitals, 17th Match",
+      "matchType": "t20",
+      "status": "Delhi Capitals won by 25 runs",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2025-04-05",
+      "dateTimeGMT": "2025-04-05T10:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "2207d377-6fe1-4197-9fb1-744e48c7e2d1",
+      "name": "Punjab Kings vs Mumbai Indians, 69th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 7 wkts",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-05-26",
+      "dateTimeGMT": "2025-05-26T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "6f407b82-f31f-4e4e-bf65-763919972804",
+      "name": "Lucknow Super Giants vs Royal Challengers Bengaluru, 70th Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 6 wkts",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-05-27",
+      "dateTimeGMT": "2025-05-27T14:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "71666b6c-a6f9-4e09-a9d9-7f3ddca832d6",
+      "name": "Gujarat Titans vs Delhi Capitals, 35th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 7 wkts",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-04-19",
+      "dateTimeGMT": "2025-04-19T10:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "eae7163d-b06c-41df-95fb-835fd5b9798b",
+      "name": "Mumbai Indians vs Lucknow Super Giants, 45th Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 54 runs",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-04-27",
+      "dateTimeGMT": "2025-04-27T10:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "075649ef-6ca8-4f50-8143-87814b828ea0",
+      "name": "Mumbai Indians vs Kolkata Knight Riders, 12th Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 8 wkts",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-03-31",
+      "dateTimeGMT": "2025-03-31T14:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "99c52578-1257-4834-9848-88cfec556836",
+      "name": "Delhi Capitals vs Mumbai Indians, 29th Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 12 runs",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-04-13",
+      "dateTimeGMT": "2025-04-13T14:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "c8425e58-85a4-4e8e-a56c-8afae638effb",
+      "name": "Punjab Kings vs Mumbai Indians, Qualifier 2",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 5 wkts",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-06-01",
+      "dateTimeGMT": "2025-06-01T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "4ace6d56-2e54-473e-a3c1-8bfcd06da6e2",
+      "name": "Punjab Kings vs Royal Challengers Bengaluru, 37th Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 7 wkts",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, Chandigarh",
+      "date": "2025-04-20",
+      "dateTimeGMT": "2025-04-20T10:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "3683354f-3c17-4346-9236-8d2bc474e7a5",
+      "name": "Kolkata Knight Riders vs Punjab Kings, 44th Match",
+      "matchType": "t20",
+      "status": "No result due to rain",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-04-26",
+      "dateTimeGMT": "2025-04-26T14:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "9b3be8ba-8302-4051-87a8-9022037b9a84",
+      "name": "Chennai Super Kings vs Punjab Kings, 49th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 4 wkts",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2025-04-30",
+      "dateTimeGMT": "2025-04-30T14:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "a62d133e-9370-4575-b649-9415fea63aab",
+      "name": "Kolkata Knight Riders vs Gujarat Titans, 39th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 39 runs",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-04-21",
+      "dateTimeGMT": "2025-04-21T14:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "5dc7a22f-5057-4895-bb98-965d9a1f004e",
+      "name": "Lucknow Super Giants vs Mumbai Indians, 16th Match",
+      "matchType": "t20",
+      "status": "Lucknow Super Giants won by 12 runs",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-04-04",
+      "dateTimeGMT": "2025-04-04T14:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "ac58e81f-a8b1-48e9-b7a1-9990b1bb24c3",
+      "name": "Rajasthan Royals vs Punjab Kings, 59th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 10 runs",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-05-18",
+      "dateTimeGMT": "2025-05-18T10:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "fa06c479-3015-4e58-b37c-9c6c076fab14",
+      "name": "Delhi Capitals vs Kolkata Knight Riders, 48th Match",
+      "matchType": "t20",
+      "status": "Kolkata Knight Riders won by 14 runs",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-04-29",
+      "dateTimeGMT": "2025-04-29T14:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "aeb65c00-9359-4bc0-827a-9d0365364d1b",
+      "name": "Kolkata Knight Riders vs Rajasthan Royals, 53rd Match",
+      "matchType": "t20",
+      "status": "Kolkata Knight Riders won by 1 run",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-05-04",
+      "dateTimeGMT": "2025-05-04T10:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "b13f129b-2596-429d-ad49-a1b0d102809b",
+      "name": "Sunrisers Hyderabad vs Punjab Kings, 27th Match",
+      "matchType": "t20",
+      "status": "Sunrisers Hyderabad won by 8 wkts",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2025-04-12",
+      "dateTimeGMT": "2025-04-12T14:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "48e77e32-3016-4f17-9c99-a5663c5eb3e6",
+      "name": "Royal Challengers Bengaluru vs Chennai Super Kings, 52nd Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 2 runs",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "date": "2025-05-03",
+      "dateTimeGMT": "2025-05-03T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "347e27a7-5e40-428f-8afb-adfae1d5d3dd",
+      "name": "Chennai Super Kings vs Rajasthan Royals, 62nd Match",
+      "matchType": "t20",
+      "status": "Rajasthan Royals won by 6 wkts",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-05-20",
+      "dateTimeGMT": "2025-05-20T14:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "38f4d432-1349-4223-87ab-b1279c553754",
+      "name": "Royal Challengers Bengaluru vs Punjab Kings, Final",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 6 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-06-03",
+      "dateTimeGMT": "2025-06-03T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "83d70527-5fc4-4fad-8dd2-b88b385f379e",
+      "name": "Gujarat Titans vs Punjab Kings, 5th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 11 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-03-25",
+      "dateTimeGMT": "2025-03-25T14:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "04e8d307-7acd-4c3d-8117-b92ced6c583a",
+      "name": "Delhi Capitals vs Royal Challengers Bengaluru, 46th Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 6 wkts",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-04-27",
+      "dateTimeGMT": "2025-04-27T14:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "4e4b259f-19b6-4405-9df7-b94ce3b0a2c9",
+      "name": "Sunrisers Hyderabad vs Delhi Capitals, 55th Match",
+      "matchType": "t20",
+      "status": "No Result - due to rain",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2025-05-05",
+      "dateTimeGMT": "2025-05-05T14:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "953420f4-982c-4dcb-b8f7-bbda5acd438d",
+      "name": "Rajasthan Royals vs Royal Challengers Bengaluru, 28th Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 9 wkts",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-04-13",
+      "dateTimeGMT": "2025-04-13T10:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Royal Challengers Bengaluru"
+      ],
+      "teamInfo": [
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "057ce3fb-8117-47fe-bf25-be0ed8a56dd0",
+      "name": "Rajasthan Royals vs Chennai Super Kings, 11th Match",
+      "matchType": "t20",
+      "status": "Rajasthan Royals won by 6 runs",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "date": "2025-03-30",
+      "dateTimeGMT": "2025-03-30T14:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Chennai Super Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "3659022a-de1d-48fe-b68a-c62197297408",
+      "name": "Delhi Capitals vs Rajasthan Royals, 32nd Match",
+      "matchType": "t20",
+      "status": "Match tied (Delhi Capitals won the Super Over)",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "date": "2025-04-16",
+      "dateTimeGMT": "2025-04-16T14:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "71756de6-bdef-4b23-801f-c6bec9604e07",
+      "name": "Mumbai Indians vs Sunrisers Hyderabad, 33rd Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 4 wkts",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-04-17",
+      "dateTimeGMT": "2025-04-17T14:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "a007a070-6120-4e37-8bf9-c9582801a20b",
+      "name": "Rajasthan Royals vs Lucknow Super Giants, 36th Match",
+      "matchType": "t20",
+      "status": "Lucknow Super Giants won by 2 runs",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-04-19",
+      "dateTimeGMT": "2025-04-19T14:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "fd459f45-6e79-42c5-84e4-d046f291cacf",
+      "name": "Rajasthan Royals vs Kolkata Knight Riders, 6th Match",
+      "matchType": "t20",
+      "status": "Kolkata Knight Riders won by 8 wkts",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "date": "2025-03-26",
+      "dateTimeGMT": "2025-03-26T14:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Kolkata Knight Riders"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "d14c8675-b2c6-4f20-920c-d44cc8d60fe7",
+      "name": "Punjab Kings vs Delhi Capitals, 66th Match",
+      "matchType": "t20",
+      "status": "Delhi Capitals won by 6 wkts",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-05-24",
+      "dateTimeGMT": "2025-05-24T14:00:00",
+      "teams": [
+        "Punjab Kings",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "ab4e0813-1e78-467e-aca0-d80c5cfe7dbd",
+      "name": "Sunrisers Hyderabad vs Lucknow Super Giants, 7th Match",
+      "matchType": "t20",
+      "status": "Lucknow Super Giants won by 5 wkts",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2025-03-27",
+      "dateTimeGMT": "2025-03-27T14:00:00",
+      "teams": [
+        "Sunrisers Hyderabad",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "513ef018-fd16-4fe6-b6d6-d84631e810b9",
+      "name": "Gujarat Titans vs Lucknow Super Giants, 64th Match",
+      "matchType": "t20",
+      "status": "Lucknow Super Giants won by 33 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-05-22",
+      "dateTimeGMT": "2025-05-22T14:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "35938151-73ee-4969-8153-db8aabee3b90",
+      "name": "Lucknow Super Giants vs Gujarat Titans, 26th Match",
+      "matchType": "t20",
+      "status": "Lucknow Super Giants won by 6 wkts",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-04-12",
+      "dateTimeGMT": "2025-04-12T10:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "20aacd15-ede1-4447-9b21-dd08e51900b2",
+      "name": "Royal Challengers Bengaluru vs Sunrisers Hyderabad, 65th Match",
+      "matchType": "t20",
+      "status": "Sunrisers Hyderabad won by 42 runs",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-05-23",
+      "dateTimeGMT": "2025-05-23T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "9c1e5e4c-b72e-4db2-b2be-df9b4d27f539",
+      "name": "Royal Challengers Bengaluru vs Rajasthan Royals, 42nd Match",
+      "matchType": "t20",
+      "status": "Royal Challengers Bengaluru won by 11 runs",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "date": "2025-04-24",
+      "dateTimeGMT": "2025-04-24T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "c6e97609-d9c1-46eb-805a-e282b34f3bb1",
+      "name": "Delhi Capitals vs Lucknow Super Giants, 4th Match",
+      "matchType": "t20",
+      "status": "Delhi Capitals won by 1 wkt",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+      "date": "2025-03-24",
+      "dateTimeGMT": "2025-03-24T14:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "3f309c2d-75dd-48bc-9d9f-e3979e252949",
+      "name": "Royal Challengers Bengaluru vs Delhi Capitals, 24th Match",
+      "matchType": "t20",
+      "status": "Delhi Capitals won by 6 wkts",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "date": "2025-04-10",
+      "dateTimeGMT": "2025-04-10T14:00:00",
+      "teams": [
+        "Royal Challengers Bengaluru",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Royal Challengers Bengaluru",
+          "shortname": "RCB",
+          "img": "https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "f5ed540f-15c7-4189-a5d4-e54be746a522",
+      "name": "Gujarat Titans vs Mumbai Indians, 9th Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 36 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-03-29",
+      "dateTimeGMT": "2025-03-29T14:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Mumbai Indians"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "af5cf1dd-b3d4-4e8d-8660-e5e27cd5202e",
+      "name": "Delhi Capitals vs Sunrisers Hyderabad, 10th Match",
+      "matchType": "t20",
+      "status": "Delhi Capitals won by 7 wkts",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+      "date": "2025-03-30",
+      "dateTimeGMT": "2025-03-30T10:00:00",
+      "teams": [
+        "Delhi Capitals",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "32450f41-24d3-463a-9d37-e6df114b43df",
+      "name": "Rajasthan Royals vs Gujarat Titans, 47th Match",
+      "matchType": "t20",
+      "status": "Rajasthan Royals won by 8 wkts",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "date": "2025-04-28",
+      "dateTimeGMT": "2025-04-28T14:00:00",
+      "teams": [
+        "Rajasthan Royals",
+        "Gujarat Titans"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "7896feec-8fd6-44ef-aee3-eabb679e6305",
+      "name": "Lucknow Super Giants vs Punjab Kings, 13th Match",
+      "matchType": "t20",
+      "status": "Punjab Kings won by 8 wkts",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2025-04-01",
+      "dateTimeGMT": "2025-04-01T14:00:00",
+      "teams": [
+        "Lucknow Super Giants",
+        "Punjab Kings"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        },
+        {
+          "name": "Punjab Kings",
+          "shortname": "PBKS",
+          "img": "https://g.cricapi.com/iapi/247-637852956959778791.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "71213f27-c274-48b0-97f7-ec74e895dcbe",
+      "name": "Gujarat Titans vs Rajasthan Royals, 23rd Match",
+      "matchType": "t20",
+      "status": "Gujarat Titans won by 58 runs",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "date": "2025-04-09",
+      "dateTimeGMT": "2025-04-09T14:00:00",
+      "teams": [
+        "Gujarat Titans",
+        "Rajasthan Royals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gujarat Titans",
+          "shortname": "GT",
+          "img": "https://g.cricapi.com/iapi/172-637852957798476823.png?w=48"
+        },
+        {
+          "name": "Rajasthan Royals",
+          "shortname": "RR",
+          "img": "https://g.cricapi.com/iapi/251-637852956607161886.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "92d38459-52b6-40a9-8508-f3dd2692a0bf",
+      "name": "Chennai Super Kings vs Sunrisers Hyderabad, 43rd Match",
+      "matchType": "t20",
+      "status": "Sunrisers Hyderabad won by 5 wkts",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2025-04-25",
+      "dateTimeGMT": "2025-04-25T14:00:00",
+      "teams": [
+        "Chennai Super Kings",
+        "Sunrisers Hyderabad"
+      ],
+      "teamInfo": [
+        {
+          "name": "Chennai Super Kings",
+          "shortname": "CSK",
+          "img": "https://g.cricapi.com/iapi/135-637852956181378533.png?w=48"
+        },
+        {
+          "name": "Sunrisers Hyderabad",
+          "shortname": "SRH",
+          "img": "https://g.cricapi.com/iapi/279-637852957609490368.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "a4109c61-bed5-47fd-badd-f7e1e1291b82",
+      "name": "Mumbai Indians vs Delhi Capitals, 63rd Match",
+      "matchType": "t20",
+      "status": "Mumbai Indians won by 59 runs",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-05-21",
+      "dateTimeGMT": "2025-05-21T14:00:00",
+      "teams": [
+        "Mumbai Indians",
+        "Delhi Capitals"
+      ],
+      "teamInfo": [
+        {
+          "name": "Delhi Capitals",
+          "shortname": "DC",
+          "img": "https://g.cricapi.com/iapi/148-637874596301457910.png?w=48"
+        },
+        {
+          "name": "Mumbai Indians",
+          "shortname": "MI",
+          "img": "https://g.cricapi.com/iapi/226-637852956375593901.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "2ac97990-6265-40e4-b93e-fcd24e89026c",
+      "name": "Kolkata Knight Riders vs Lucknow Super Giants, 21st Match",
+      "matchType": "t20",
+      "status": "Lucknow Super Giants won by 4 runs",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2025-04-08",
+      "dateTimeGMT": "2025-04-08T10:00:00",
+      "teams": [
+        "Kolkata Knight Riders",
+        "Lucknow Super Giants"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kolkata Knight Riders",
+          "shortname": "KKR",
+          "img": "https://g.cricapi.com/iapi/206-637852958714346149.png?w=48"
+        },
+        {
+          "name": "Lucknow Super Giants",
+          "shortname": "LSG",
+          "img": "https://g.cricapi.com/iapi/215-637876059669009476.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    }
+  ],
+  "srh_schedule": [
+    {
       "match": 1,
       "vs": "RCB",
       "venue": "M. Chinnaswamy Stadium, Bengaluru",
       "date": "2026-03-28",
       "time": "7:30 PM IST"
+    },
+    {
+      "match": 6,
+      "vs": "KKR",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-04-02",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 10,
+      "vs": "LSG",
+      "venue": "Rajiv Gandhi Int'l Stadium, Hyd",
+      "date": "2026-04-05",
+      "time": "3:30 PM IST"
+    },
+    {
+      "match": 17,
+      "vs": "PBKS",
+      "venue": "New Chandigarh",
+      "date": "2026-04-11",
+      "time": "3:30 PM IST"
+    },
+    {
+      "match": 21,
+      "vs": "RR",
+      "venue": "Hyderabad",
+      "date": "2026-04-13",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 27,
+      "vs": "CSK",
+      "venue": "Hyderabad",
+      "date": "2026-04-18",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 31,
+      "vs": "DC",
+      "venue": "Hyderabad",
+      "date": "2026-04-21",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 36,
+      "vs": "RR",
+      "venue": "Jaipur (away)",
+      "date": "2026-04-25",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 41,
+      "vs": "MI",
+      "venue": "Wankhede, Mumbai (away)",
+      "date": "2026-04-29",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 0,
+      "vs": "KKR",
+      "venue": "Hyderabad",
+      "date": "2026-05-03",
+      "time": "3:30 PM IST"
+    },
+    {
+      "match": 0,
+      "vs": "PBKS",
+      "venue": "Hyderabad",
+      "date": "2026-05-06",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 0,
+      "vs": "GT",
+      "venue": "Ahmedabad (away)",
+      "date": "2026-05-12",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 0,
+      "vs": "CSK",
+      "venue": "Chennai (away)",
+      "date": "2026-05-18",
+      "time": "7:30 PM IST"
+    },
+    {
+      "match": 0,
+      "vs": "RCB",
+      "venue": "Hyderabad",
+      "date": "2026-05-22",
+      "time": "7:30 PM IST"
     }
-  },
-  "points_table": [
-    {"team": "RCB",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "MI",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "KKR",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "CSK",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "GT",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "DC",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "RR",   "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "PBKS", "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "LSG",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []},
-    {"team": "SRH",  "matches": 0, "wins": 0, "losses": 0, "points": 0, "nrr": "0.000", "form": []}
-  ],
-  "today_matches": [],
-  "srh_schedule": [
-    {"match": 1,  "vs": "RCB",  "venue": "M. Chinnaswamy Stadium, Bengaluru", "date": "2026-03-28", "time": "7:30 PM IST"},
-    {"match": 6,  "vs": "KKR",  "venue": "Eden Gardens, Kolkata",             "date": "2026-04-02", "time": "7:30 PM IST"},
-    {"match": 10, "vs": "LSG",  "venue": "Rajiv Gandhi Int'l Stadium, Hyd",   "date": "2026-04-05", "time": "3:30 PM IST"},
-    {"match": 17, "vs": "PBKS", "venue": "New Chandigarh",                    "date": "2026-04-11", "time": "3:30 PM IST"},
-    {"match": 21, "vs": "RR",   "venue": "Hyderabad",                         "date": "2026-04-13", "time": "7:30 PM IST"},
-    {"match": 27, "vs": "CSK",  "venue": "Hyderabad",                         "date": "2026-04-18", "time": "7:30 PM IST"},
-    {"match": 31, "vs": "DC",   "venue": "Hyderabad",                         "date": "2026-04-21", "time": "7:30 PM IST"},
-    {"match": 36, "vs": "RR",   "venue": "Jaipur (away)",                     "date": "2026-04-25", "time": "7:30 PM IST"},
-    {"match": 41, "vs": "MI",   "venue": "Wankhede, Mumbai (away)",           "date": "2026-04-29", "time": "7:30 PM IST"},
-    {"match": 0,  "vs": "KKR",  "venue": "Hyderabad",                         "date": "2026-05-03", "time": "3:30 PM IST"},
-    {"match": 0,  "vs": "PBKS", "venue": "Hyderabad",                         "date": "2026-05-06", "time": "7:30 PM IST"},
-    {"match": 0,  "vs": "GT",   "venue": "Ahmedabad (away)",                  "date": "2026-05-12", "time": "7:30 PM IST"},
-    {"match": 0,  "vs": "CSK",  "venue": "Chennai (away)",                    "date": "2026-05-18", "time": "7:30 PM IST"},
-    {"match": 0,  "vs": "RCB",  "venue": "Hyderabad",                         "date": "2026-05-22", "time": "7:30 PM IST"}
   ]
 }
