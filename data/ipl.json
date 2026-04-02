@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-01T05:12:17.190203+00:00",
-  "updated_date": "2026-04-01",
+  "updated_at": "2026-04-02T04:41:20.637829+00:00",
+  "updated_date": "2026-04-02",
   "srh": {
     "position": 10,
     "points": 0,
@@ -113,10 +113,10 @@
   "today_matches": [
     {
       "teams": [
-        "LSG",
-        "DC"
+        "KKR",
+        "SRH"
       ],
-      "venue": "Lucknow",
+      "venue": "Kolkata",
       "status": "7:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
