@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-07T04:58:08.032983+00:00",
-  "updated_date": "2026-04-07",
+  "updated_at": "2026-04-08T05:00:20.227913+00:00",
+  "updated_date": "2026-04-08",
   "srh": {
     "position": 10,
     "points": 0,
@@ -113,22 +113,11 @@
   "today_matches": [
     {
       "teams": [
-        "KKR",
-        "PBKS"
+        "DC",
+        "GT"
       ],
-      "venue": "Kolkata",
+      "venue": "Delhi",
       "status": "7:30 PM IST",
-      "matchStarted": false,
-      "matchEnded": false,
-      "score": []
-    },
-    {
-      "teams": [
-        "RR",
-        "MI"
-      ],
-      "venue": "Guwahati",
-      "status": "3:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
       "score": []
