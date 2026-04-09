@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-08T05:00:20.227913+00:00",
-  "updated_date": "2026-04-08",
+  "updated_at": "2026-04-09T04:57:34.693580+00:00",
+  "updated_date": "2026-04-09",
   "srh": {
     "position": 10,
     "points": 0,
@@ -113,10 +113,10 @@
   "today_matches": [
     {
       "teams": [
-        "DC",
-        "GT"
+        "KKR",
+        "LSG"
       ],
-      "venue": "Delhi",
+      "venue": "Kolkata",
       "status": "7:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
