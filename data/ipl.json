@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-09T04:57:34.693580+00:00",
-  "updated_date": "2026-04-09",
+  "updated_at": "2026-04-10T05:12:01.109696+00:00",
+  "updated_date": "2026-04-10",
   "srh": {
     "position": 10,
     "points": 0,
@@ -113,10 +113,10 @@
   "today_matches": [
     {
       "teams": [
-        "KKR",
-        "LSG"
+        "RR",
+        "RCB"
       ],
-      "venue": "Kolkata",
+      "venue": "Jaipur",
       "status": "7:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
