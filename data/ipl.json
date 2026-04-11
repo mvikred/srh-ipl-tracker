@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-10T05:12:01.109696+00:00",
-  "updated_date": "2026-04-10",
+  "updated_at": "2026-04-11T04:33:34.330606+00:00",
+  "updated_date": "2026-04-11",
   "srh": {
     "position": 10,
     "points": 0,
@@ -113,10 +113,21 @@
   "today_matches": [
     {
       "teams": [
-        "RR",
-        "RCB"
+        "PBKS",
+        "SRH"
       ],
-      "venue": "Jaipur",
+      "venue": "New Chandigarh",
+      "status": "3:30 PM IST",
+      "matchStarted": false,
+      "matchEnded": false,
+      "score": []
+    },
+    {
+      "teams": [
+        "CSK",
+        "DC"
+      ],
+      "venue": "Chennai",
       "status": "7:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
