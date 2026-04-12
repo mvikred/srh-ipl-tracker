@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-11T04:33:34.330606+00:00",
-  "updated_date": "2026-04-11",
+  "updated_at": "2026-04-12T05:11:02.067270+00:00",
+  "updated_date": "2026-04-12",
   "srh": {
     "position": 10,
     "points": 0,
@@ -11,11 +11,11 @@
     "form": [],
     "captain": "Ishan Kishan (interim) \u00b7 Pat Cummins (injured)",
     "next_match": {
-      "match": 17,
-      "vs": "PBKS",
-      "venue": "New Chandigarh",
-      "date": "2026-04-11",
-      "time": "3:30 PM IST"
+      "match": 21,
+      "vs": "RR",
+      "venue": "Hyderabad",
+      "date": "2026-04-13",
+      "time": "7:30 PM IST"
     }
   },
   "points_table": [
@@ -113,10 +113,10 @@
   "today_matches": [
     {
       "teams": [
-        "PBKS",
-        "SRH"
+        "LSG",
+        "GT"
       ],
-      "venue": "New Chandigarh",
+      "venue": "Lucknow",
       "status": "3:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
@@ -124,10 +124,10 @@
     },
     {
       "teams": [
-        "CSK",
-        "DC"
+        "MI",
+        "RCB"
       ],
-      "venue": "Chennai",
+      "venue": "Mumbai",
       "status": "7:30 PM IST",
       "matchStarted": false,
       "matchEnded": false,
