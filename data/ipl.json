@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-12T05:11:02.067270+00:00",
-  "updated_date": "2026-04-12",
+  "updated_at": "2026-04-13T05:27:12.243227+00:00",
+  "updated_date": "2026-04-13",
   "srh": {
     "position": 10,
     "points": 0,
@@ -110,30 +110,7 @@
       "form": []
     }
   ],
-  "today_matches": [
-    {
-      "teams": [
-        "LSG",
-        "GT"
-      ],
-      "venue": "Lucknow",
-      "status": "3:30 PM IST",
-      "matchStarted": false,
-      "matchEnded": false,
-      "score": []
-    },
-    {
-      "teams": [
-        "MI",
-        "RCB"
-      ],
-      "venue": "Mumbai",
-      "status": "7:30 PM IST",
-      "matchStarted": false,
-      "matchEnded": false,
-      "score": []
-    }
-  ],
+  "today_matches": [],
   "srh_schedule": [
     {
       "match": 1,
