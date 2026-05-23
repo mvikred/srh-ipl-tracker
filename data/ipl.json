@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-22T06:31:53.827860+00:00",
-  "updated_date": "2026-05-22",
+  "updated_at": "2026-05-23T05:52:20.276648+00:00",
+  "updated_date": "2026-05-23",
   "srh": {
     "position": 10,
     "points": 0,
@@ -10,13 +10,7 @@
     "nrr": "0.000",
     "form": [],
     "captain": "Ishan Kishan (interim) \u00b7 Pat Cummins (injured)",
-    "next_match": {
-      "match": 0,
-      "vs": "RCB",
-      "venue": "Hyderabad",
-      "date": "2026-05-22",
-      "time": "7:30 PM IST"
-    }
+    "next_match": null
   },
   "points_table": [
     {
